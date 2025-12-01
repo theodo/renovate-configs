@@ -23,6 +23,13 @@
   // ##########################################
   minimumReleaseAge: "14 days",
 
+  // ##########################################
+  // Delete and recreates the lock file once a week
+  // ##########################################
+  lockFileMaintenance: {
+    enabled: true,
+  },
+
   // ################
   // Package Rules
   // ################
