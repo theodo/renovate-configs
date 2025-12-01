@@ -23,6 +23,13 @@
   // ##########################################
   minimumReleaseAge: "14 days",
 
+  // ##########################################
+  // Add minimum release date to avoid undiscovered vulnerabilities
+  // ##########################################
+  lockFileMaintenance: {
+    enabled: true,
+  },
+
   // ################
   // Package Rules
   // ################
